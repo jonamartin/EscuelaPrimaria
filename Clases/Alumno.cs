@@ -10,10 +10,7 @@ class Alumno
         List<int> notasLe = new List<int>();
         List<int> notasEF = new List<int>();
         List<int> notasMu = new List<int>();
-        new Materia("Matematica");
-        new Materia("Lengua");
-        new Materia("Musica");
-        new Materia("Educacion fisica");
+
         Materia eval = new Materia();
         for (int i=0; i<=3; i++)
         {
