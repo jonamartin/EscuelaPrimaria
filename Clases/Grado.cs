@@ -4,9 +4,10 @@ using Nueva_carpeta;
 
 class Grado : Program
 {
+    public List<Alumno> Alumnos {get; set;} = new List<Alumno>();
     public Grado(int grado)
     {
-        List<Alumno> Alumnos = new List<Alumno>();
+       
         for (int i = 0; i<20; i++)
         {
             Alumnos.Add(new Alumno());

@@ -4,15 +4,14 @@ using Nueva_carpeta;
 
 class Alumno
 {
+    public List<int> notasMa {get; set;} = new List<int>();
+    public List<int> notasLe {get; set;} = new List<int>();
+    public List<int> notasEF {get; set;} = new List<int>();
+    public List<int> notasMu {get; set;} = new List<int>();
     public Alumno ()
     {
-        List<int> notasMa = new List<int>();
-        List<int> notasLe = new List<int>();
-        List<int> notasEF = new List<int>();
-        List<int> notasMu = new List<int>();
-
         Materia eval = new Materia();
-        for (int i=0; i<=3; i++)
+        for (int i=0; i<3; i++)
         {
             notasEF.Add(eval.evaluar());
             notasLe.Add(eval.evaluar());
